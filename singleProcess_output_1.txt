@@ -1,0 +1,5 @@
+10000
+0.4995
+Process 1:
+Predictions: [1 1 1 ... 0 1 1]
+Calculation Time: 33.91055250167847 seconds
