@@ -19,7 +19,7 @@ echo "Starting parallel job..."
 
 # Create a loop to iterate over each process
 for i in `seq 1 $NUM_PROCESSES`; do
-   python3 parallel_script2.py -p $i > "$TMP_DIR/doubleProcess_output_$i.txt" &
+   python3 parallel_script_process_jobid.py -p $i -jo ${SLURM_JOB_ID} > "$TMP_DIR/doubleProcess_output_$i.txt" &
   # echo "${SLURM_JOB_ID}"
 done
 
