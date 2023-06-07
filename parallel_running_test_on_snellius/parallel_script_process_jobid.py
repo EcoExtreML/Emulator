@@ -5,8 +5,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_classification
 
 def calculate(process, n_samples,job):
-    start_time = time.time()
-
     # Generate a synthetic dataset for classification
     X, y = make_classification(n_samples=10000, n_features=20, random_state=42)
 
@@ -14,6 +12,7 @@ def calculate(process, n_samples,job):
     classifier = RandomForestClassifier(n_estimators=1000)
     classifier.fit(X, y)
 
+    start_time = time.time()
     # Perform predictions
     X_test, _ = make_classification(n_samples=n_samples, n_features=20, random_state=42)
     predictions = classifier.predict(X_test)
@@ -35,7 +34,7 @@ if __name__ == '__main__':
 
     process_id = args.process_id
     job_id = args.job_id
-    num_processes = 2
+    num_processes = 1
     n_samples = 1000000
 
     # Calculate the number of samples per process

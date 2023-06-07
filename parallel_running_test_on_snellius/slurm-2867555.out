@@ -1,0 +1,16 @@
+Starting parallel job...
+Parallel job completed!
+
+JOB STATISTICS
+==============
+Job ID: 2867555
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 2
+CPU Utilized: 00:02:30
+CPU Efficiency: 84.27% of 00:02:58 core-walltime
+Job Wall-clock time: 00:01:29
+Memory Utilized: 613.59 MB
+Memory Efficiency: 4.28% of 14.00 GB

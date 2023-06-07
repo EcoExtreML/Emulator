@@ -1,5 +1,5 @@
 length of predictions 500000
-mean of predictions 0.372002
-Process 2, Job 2867413
+mean of predictions 0.387298
+Process 2, Job 2867555
 Predictions: [0 0 0 ... 0 1 1]
-Calculation Time: 74.56327819824219 seconds
+Calculation Time: 41.331899642944336 seconds
