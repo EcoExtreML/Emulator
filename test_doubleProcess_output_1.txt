@@ -1,0 +1,6 @@
+training time: 37.92902445793152 seconds
+Predictions: [0 0 0 ... 0 1 1]
+length of predictions 500000
+mean of predictions 0.389044
+predicting time: 50.66666507720947 seconds
+Process 1, Job 2868865
