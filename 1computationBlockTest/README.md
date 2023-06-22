@@ -10,9 +10,27 @@ Then I realized the difference between Jan and Nov, Dec is the input variables R
 
 I also tried Feb, same recursion error, but when I change 745 to 1500 in line 151 to make Rin and Rli has values for Feb, Feb succeeded. This means the input variables can not be all nan values for too many steps?
 
-I tried to look at this error in jupyter notebook, the real reason why all nan values cause the recursion error is in cell 21 of 2read10kminput-halfhourly-0608py.ipynb. It crash in the 8th last step inside the for loop (last 500 steps of Dec in total of the for loop), when I tried to print(result_LE[count_i::].values. I can not understand this but it seems the error is from this. And the predicted result (estimated_LEH) seems no problem, because I can print it (cell 71 of 2read10kminput-halfhourly-0608py-Copy1.ipynb). Then why result_LE[count_i, ::] = LEH_map[:,:,0]; print("LE values",result_LE[count_i, ::].values) throw the error? What is the reason? For this 500 steps of Dec, if I increase recursionlimit to 3000, the error disappeared.
+I tried to look at this error in jupyter notebook, the real reason why all nan values cause the recursion error is in cell 21 of 2read10kminput-halfhourly-0608py.ipynb. It crash in the 492nd step inside the for loop (the last 500 steps of Dec is the for loop), when I tried to print(result_LE[count_i::].values. I can not understand this but it seems the error is from this. And the predicted result (estimated_LEH) seems no problem, because I can print it (cell 71 of 2read10kminput-halfhourly-0608py-Copy1.ipynb). Then why result_LE[count_i, ::] = LEH_map[:,:,0]; print("LE values",result_LE[count_i, ::].values) throw the error? What is the reason? For this 500 steps of Dec, if I increase recursionlimit to 3000, the error disappeared.
 
-I found the reason: when I just create a dataarray result_LE ([17519,51,51]), and assign np.nan (instead of using RF to predict) to it for 500 times in a for loop (loop the first dimension), it throw recursion error at 432nd step. So the dataarray can not be assigned np.nan for too many times? 
+I found the reason: when I just create a dataarray result_LE ([17519,51,51]), and assign np.nan (instead of using RF to predict) to it for 500 times in a for loop (loop the first dimension), it throw recursion error at 432nd step. So the dataarray can not be assigned np.nan for too many times? However when I tried to assign 0 to result_LE, it throw the recursion error at 492nd step. Then it gets confusing again, because I managed to predict Jan and assign the predicted result to result_LE which is 1500 steps. Dataarray can not be assigned the same values for too many times? Or the problem is the dataarray result_LE because I created it from copying ERA5Land data?
+
+all1 = xr.open_mfdataset("/data/private/DL/datadownload/"+year+"/era5land/*.nc")
+
+all_resample = all1.resample(time="1800S").interpolate('linear')
+
+result_LE = all_resample.to_array()[0,:,:,:].copy().astype(float)
+
+result_LE[::] = np.nan
+
+for count_i,t in enumerate(all_resample.time.to_numpy()[0:1500]):
+
+    result_LE[count_i, ::] = np.nan
+	
+    print(count_i)
+	
+    print(result_LE[count_i,::].values)  
+	
+
 
  
 This error was fixed by making the Rin and Rli not nan. We can have a look at this question if we have time left. Other things are more important probably, e.g. how to make the python script run faster and make the parallel computing plan for global scale.
