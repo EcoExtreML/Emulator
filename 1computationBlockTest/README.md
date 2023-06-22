@@ -15,12 +15,19 @@ I tried to look at this error in jupyter notebook, the real reason why all nan v
 I found the reason: when I just create a dataarray result_LE ([17519,51,51]), and assign np.nan (instead of using RF to predict) to it for 500 times in a for loop (loop the first dimension), it throw recursion error at 432nd step. So the dataarray can not be assigned np.nan for too many times? However when I tried to assign 0 to result_LE, it throw the recursion error at 492nd step. Then it gets confusing again, because I managed to predict Jan and assign the predicted result to result_LE which is 1500 steps. Dataarray can not be assigned the same values for too many times? Or the problem is the dataarray result_LE because I created it from copying ERA5Land data?
 
 all1 = xr.open_mfdataset("/data/private/DL/datadownload/"+year+"/era5land/*.nc")
+
 all_resample = all1.resample(time="1800S").interpolate('linear')
+
 result_LE = all_resample.to_array()[0,:,:,:].copy().astype(float)
+
 result_LE[::] = np.nan
+
 for count_i,t in enumerate(all_resample.time.to_numpy()[0:1500]):
+
     result_LE[count_i, ::] = np.nan
+	
     print(count_i)
+	
     print(result_LE[count_i,::].values)  
 	
 
