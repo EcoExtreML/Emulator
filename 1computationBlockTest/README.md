@@ -10,7 +10,8 @@ Then I realized the difference between Jan and Nov, Dec is the input variables R
 
 I also tried Feb, same recursion error, but when I change 745 to 1500 in line 151 to make Rin and Rli has values for Feb, Feb succeeded. This means the input variables can not be all nan values for too many steps?
 
-I tried to look at this error in jupyter notebook, the real reason why all nan values cause the recursion error is in cell 21 of 2read10kminput-halfhourly-0608py.ipynb. It crash in the 8th last step inside the for loop (last 500 steps of Dec in total of the for loop), when I tried to print(result_LE[count_i::].values. I can not understand this but it seems the error is from this. Maybe the predicted result (estimated_LEH) is not valid too? When all nan values in one or multiple features for too many steps, RF can not predict? For this 500 steps of Dec, if I increase recursionlimit to 3000, the error disappeared.
+I tried to look at this error in jupyter notebook, the real reason why all nan values cause the recursion error is in cell 21 of 2read10kminput-halfhourly-0608py.ipynb. It crash in the 8th last step inside the for loop (last 500 steps of Dec in total of the for loop), when I tried to print(result_LE[count_i::].values. I can not understand this but it seems the error is from this. And the predicted result (estimated_LEH) seems no problem, because I can print it (cell 71 of 2read10kminput-halfhourly-0608py-Copy1.ipynb). Then why result_LE[count_i, ::] = LEH_map[:,:,0]; print("LE values",result_LE[count_i, ::].values) throw the error? What is the reason?
+For this 500 steps of Dec, if I increase recursionlimit to 3000, the error disappeared.
  
 This error was fixed by making the Rin and Rli not nan. We can have a look at this question if we have time left. Other things are more important probably, e.g. how to make the python script run faster and make the parallel computing plan for global scale.
 
