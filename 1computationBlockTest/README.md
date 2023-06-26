@@ -39,6 +39,6 @@ After I changed "result_LE[count_i, ::] = np.nan" to "result_LE[count_i].values[
 
 4) Job 2957047 is run for 1 spatial unit, 7 variables, 6 months (Jan-June).
 
-I change 745 in line 151 to range(len(all1.time)+1) which is 17520 to calculate hourly Rin and Rli for the whole year. But after I do this, seems lines 316-342 is running very slow. With 745, it was 4 seconds for each loop, with 17520, it is 20 seconds for each loop. That is why I am running for 6 months instead of 1 year. And the most time-consuming code is between line 316-342, the predict line 358 is fast actually. Could you help me check can we make line 316-342 fast?
+I change 745 in line 151 to range(len(all1.time)+1) which is 17520 to calculate hourly Rin and Rli for the whole year. But after I do this, seems lines 316-342 is running very slow. With 745, it was 4 seconds for each loop, with 17520, it is 20 seconds for each loop. That is why I am running for 6 months instead of 1 year. And the most time-consuming code is between line 316-342, the predict line 358 is fast actually. Could you help me check can we make line 316-342 fast? This took 85 hours to run.
 
 
