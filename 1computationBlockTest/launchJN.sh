@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=3
+#SBATCH --cpus-per-task=32
 
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
@@ -21,7 +21,11 @@ echo "ssh -J ${USER}@${LOGIN_HOST} ${USER}@${BATCH_HOST} -L ${PORT}:localhost:${
 echo
 echo "After connection is established in your local browser go to the address:"
 echo "http://localhost:${PORT}"
-#source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate firstEnv
-conda activate gdal 
-jupyter notebook --no-browser --port $PORT
+#source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate emulator
+
+source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
+
+#conda activate gdal 
+cd /projects/0/einf2480/
+jupyter lab --no-browser --port $PORT --ip=${BATCH_HOST}
 
