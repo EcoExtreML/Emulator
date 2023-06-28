@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --time 12:00:00
+#SBATCH --time 2:00:00
 #SBATCH --nodes=1
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
@@ -27,5 +27,5 @@ source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activat
 
 #conda activate gdal 
 cd /projects/0/einf2480/
-jupyter lab --no-browser --port $PORT --ip=${BATCH_HOST}
+jupyter lab --no-browser --port $PORT
 
