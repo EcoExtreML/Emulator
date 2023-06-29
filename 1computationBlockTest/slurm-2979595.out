@@ -1,0 +1,149 @@
+To connect to the notebook type the following command from your local terminal:
+ssh -J qiahan@int4-pub.snellius.surf.nl qiahan@fcn57.local.snellius.surf.nl -L 5816:localhost:5816
+
+After connection is established in your local browser go to the address:
+http://localhost:5816
+[I 2023-06-28 09:39:00.205 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-06-28 09:39:01.584 ServerApp] Package dask_labextension took 1.3781s to import
+[W 2023-06-28 09:39:01.584 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-28 09:39:02.834 ServerApp] Package ipyparallel took 1.2494s to import
+[W 2023-06-28 09:39:02.834 ServerApp] A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-28 09:39:02.845 ServerApp] Package jupyter_server_fileid took 0.0103s to import
+[I 2023-06-28 09:39:02.850 ServerApp] Package jupyter_server_mathjax took 0.0053s to import
+[I 2023-06-28 09:39:02.851 ServerApp] Package jupyter_server_proxy took 0.0000s to import
+[I 2023-06-28 09:39:02.876 ServerApp] Package jupyter_server_terminals took 0.0249s to import
+[I 2023-06-28 09:39:02.995 ServerApp] Package jupyter_server_ydoc took 0.1185s to import
+[I 2023-06-28 09:39:03.070 ServerApp] Package jupyterlab_git took 0.0743s to import
+[I 2023-06-28 09:39:03.070 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-06-28 09:39:03.078 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-28 09:39:03.079 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-06-28 09:39:03.079 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-06-28 09:39:03.079 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-28 09:39:03.081 ServerApp] dask_labextension | extension was successfully linked.
+[I 2023-06-28 09:39:03.081 ServerApp] ipyparallel | extension was successfully linked.
+[I 2023-06-28 09:39:03.089 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-06-28 09:39:03.098 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-06-28 09:39:03.098 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-06-28 09:39:03.105 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-06-28 09:39:03.112 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-06-28 09:39:03.164 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-06-28 09:39:03.164 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-06-28 09:39:03.173 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-06-28 09:39:03.173 ServerApp] nbdime | extension was successfully linked.
+[I 2023-06-28 09:39:03.198 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-06-28 09:39:03.493 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-06-28 09:39:03.494 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2023-06-28 09:39:03.500 ServerApp] Loading IPython parallel extension
+[I 2023-06-28 09:39:03.501 ServerApp] ipyparallel | extension was successfully loaded.
+[I 2023-06-28 09:39:03.501 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-06-28 09:39:03.501 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /gpfs/work1/0/einf2480
+[I 2023-06-28 09:39:03.504 FileIdExtension] ArbitraryFileIdManager : Configured database path: /gpfs/home2/qiahan/.local/share/jupyter/file_id_manager.db
+[I 2023-06-28 09:39:03.506 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-06-28 09:39:03.506 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-06-28 09:39:03.507 FileIdExtension] Attached event listeners.
+[I 2023-06-28 09:39:03.507 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-06-28 09:39:03.507 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-06-28 09:39:03.524 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-06-28 09:39:03.525 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-06-28 09:39:03.525 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-06-28 09:39:03.555 LabApp] JupyterLab extension loaded from /home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/site-packages/jupyterlab
+[I 2023-06-28 09:39:03.555 LabApp] JupyterLab application directory is /gpfs/home2/qiahan/.conda/envs/mamba/envs/emulator/share/jupyter/lab
+[I 2023-06-28 09:39:03.559 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-06-28 09:39:03.564 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-06-28 09:39:03.579 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-06-28 09:39:03.915 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-06-28 09:39:03.916 ServerApp] Serving notebooks from local directory: /gpfs/work1/0/einf2480
+[I 2023-06-28 09:39:03.916 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-06-28 09:39:03.916 ServerApp] http://localhost:5816/lab?token=de1e8bef159d932e65de878d44bcbb2eaeeb18e399cbbac4
+[I 2023-06-28 09:39:03.916 ServerApp]     http://127.0.0.1:5816/lab?token=de1e8bef159d932e65de878d44bcbb2eaeeb18e399cbbac4
+[I 2023-06-28 09:39:03.916 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-06-28 09:39:03.923 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/home2/qiahan/.local/share/jupyter/runtime/jpserver-199839-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5816/lab?token=de1e8bef159d932e65de878d44bcbb2eaeeb18e399cbbac4
+        http://127.0.0.1:5816/lab?token=de1e8bef159d932e65de878d44bcbb2eaeeb18e399cbbac4
+[I 2023-06-28 09:48:38.385 LabApp] Generating new user for token-authenticated request: 4386d5f3b6a740a0bb6a8e51d1a56173
+[W 2023-06-28 09:48:42.842 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-06-28 09:48:46.639 ServerApp] Notebook global_data_Qianqian/Emulator/1computationBlockTest/2read10kminput-halfhourly-0626.ipynb is not trusted
+[W 2023-06-28 09:48:46.692 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 09:48:49.495 ServerApp] Kernel started: 49c15c87-26a6-4286-bd31-da39530e3b45
+[I 2023-06-28 09:48:49.581 ServerApp] Kernel started: 1ba2b5f5-a7cd-44c0-826b-09e569298b46
+[I 2023-06-28 09:48:50.232 ServerApp] Connecting to kernel 49c15c87-26a6-4286-bd31-da39530e3b45.
+[I 2023-06-28 09:48:50.234 ServerApp] Connecting to kernel 49c15c87-26a6-4286-bd31-da39530e3b45.
+[I 2023-06-28 09:48:50.372 ServerApp] Connecting to kernel 1ba2b5f5-a7cd-44c0-826b-09e569298b46.
+[I 2023-06-28 09:48:50.373 ServerApp] Connecting to kernel 1ba2b5f5-a7cd-44c0-826b-09e569298b46.
+[I 2023-06-28 09:48:50.443 ServerApp] Connecting to kernel 1ba2b5f5-a7cd-44c0-826b-09e569298b46.
+[W 2023-06-28 09:49:23.233 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0414.ipynb is not trusted
+[I 2023-06-28 09:49:24.784 ServerApp] Kernel started: 12e668ea-5709-4ec8-aaa6-16554276e6c8
+[I 2023-06-28 09:49:25.359 ServerApp] Connecting to kernel 12e668ea-5709-4ec8-aaa6-16554276e6c8.
+[I 2023-06-28 09:50:18.848 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0414.ipynb
+[W 2023-06-28 09:50:18.851 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0414.ipynb is not trusted
+[W 2023-06-28 09:50:19.262 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 09:50:19.702 ServerApp] Starting buffering for 12e668ea-5709-4ec8-aaa6-16554276e6c8:267b4432-d7d7-47fd-9188-903c7e03d60d
+[I 2023-06-28 09:50:22.733 ServerApp] Connecting to kernel 1ba2b5f5-a7cd-44c0-826b-09e569298b46.
+[I 2023-06-28 09:50:48.642 ServerApp] Saving file at /global_data_Qianqian/Emulator/1computationBlockTest/2read10kminput-halfhourly-0626.ipynb
+[W 2023-06-28 09:50:48.644 ServerApp] Notebook global_data_Qianqian/Emulator/1computationBlockTest/2read10kminput-halfhourly-0626.ipynb is not trusted
+[I 2023-06-28 09:50:54.443 ServerApp] Kernel started: 69526e2c-6546-482b-94a7-3dd07f062334
+[I 2023-06-28 09:50:54.444 ServerApp] Kernel shutdown: 1ba2b5f5-a7cd-44c0-826b-09e569298b46
+[I 2023-06-28 09:50:55.055 ServerApp] Connecting to kernel 69526e2c-6546-482b-94a7-3dd07f062334.
+[I 2023-06-28 09:50:55.142 ServerApp] Connecting to kernel 69526e2c-6546-482b-94a7-3dd07f062334.
+[I 2023-06-28 09:52:28.222 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 09:52:28.236 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[W 2023-06-28 09:52:34.950 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py.ipynb is not trusted
+[I 2023-06-28 09:52:38.187 ServerApp] Kernel started: 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0
+[I 2023-06-28 09:52:38.816 ServerApp] Connecting to kernel 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0.
+[I 2023-06-28 09:52:50.703 ServerApp] Starting buffering for 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0:71483e5a-fbcb-4401-80a4-f9ee5285c649
+[W 2023-06-28 09:52:56.848 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py.ipynb is not trusted
+[I 2023-06-28 09:52:59.220 ServerApp] Connecting to kernel 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0.
+[W 2023-06-28 09:53:33.529 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0414.ipynb is not trusted
+[I 2023-06-28 09:53:35.281 ServerApp] Connecting to kernel 12e668ea-5709-4ec8-aaa6-16554276e6c8.
+[I 2023-06-28 09:53:40.736 ServerApp] Starting buffering for 12e668ea-5709-4ec8-aaa6-16554276e6c8:005edea6-4cc7-4ae5-8a0b-5a517c56bbbf
+[I 2023-06-28 09:54:13.937 ServerApp] Starting buffering for 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0:5777ccf5-cb22-4e97-91b5-ee4f073d9356
+[I 2023-06-28 09:54:35.161 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 09:54:35.175 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 09:56:40.855 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 09:56:40.867 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[W 2023-06-28 09:56:42.066 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py.ipynb is not trusted
+[I 2023-06-28 09:56:44.242 ServerApp] Connecting to kernel 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0.
+[I 2023-06-28 09:58:45.673 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 09:58:45.684 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:01:03.247 ServerApp] Starting buffering for 0ebda7c4-f6f2-4ff8-83af-a1683b86aed0:2406ba3f-5241-4969-8c40-bf150b59fb07
+[I 2023-06-28 10:08:55.067 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:08:55.079 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[W 2023-06-28 10:08:55.628 ServerApp] /gpfs/work1/0/einf2480/global_data_Qianqian/.~2read10kminput-halfhourly-0608py-Copy1.ipynb doesn't exist
+[I 2023-06-28 10:09:34.390 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:09:34.403 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:11:39.315 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:11:39.328 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:21:50.874 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:21:50.886 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:23:56.840 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:23:56.852 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:40:50.360 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:40:50.372 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[W 2023-06-28 10:40:50.774 ServerApp] /gpfs/work1/0/einf2480/global_data_Qianqian/.~2read10kminput-halfhourly-0608py-Copy1.ipynb doesn't exist
+[I 2023-06-28 10:44:50.980 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:44:50.992 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:52:58.925 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:52:58.953 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 10:53:27.948 ServerApp] Saving file at /global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb
+[W 2023-06-28 10:53:27.960 ServerApp] Notebook global_data_Qianqian/2read10kminput-halfhourly-0608py-Copy1.ipynb is not trusted
+[I 2023-06-28 13:13:26.972 ServerApp] Starting buffering for 49c15c87-26a6-4286-bd31-da39530e3b45:cae3693c-4376-493d-bbd1-090c81485dcc
+[I 2023-06-28 13:13:26.973 ServerApp] Starting buffering for 69526e2c-6546-482b-94a7-3dd07f062334:7b53753b-c52b-4502-8703-df883e6159ee
+slurmstepd: error: *** JOB 2979595 ON fcn57 CANCELLED AT 2023-06-28T21:39:10 DUE TO TIME LIMIT ***
+
+JOB STATISTICS
+==============
+Job ID: 2979595
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 64-00:59:44 core-walltime
+Job Wall-clock time: 12:00:28
+Memory Utilized: 32.45 GB
+Memory Efficiency: 3.38% of 960.00 GB

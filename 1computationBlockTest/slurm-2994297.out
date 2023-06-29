@@ -1,0 +1,79 @@
+To connect to the notebook type the following command from your local terminal:
+ssh -J qiahan@int4-pub.snellius.surf.nl qiahan@fcn44.local.snellius.surf.nl -L 5271:localhost:5271
+
+After connection is established in your local browser go to the address:
+http://localhost:5271
+[I 2023-06-29 23:01:05.626 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-06-29 23:01:06.576 ServerApp] Package dask_labextension took 0.9499s to import
+[W 2023-06-29 23:01:06.576 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-29 23:01:07.447 ServerApp] Package ipyparallel took 0.8705s to import
+[W 2023-06-29 23:01:07.447 ServerApp] A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-29 23:01:07.456 ServerApp] Package jupyter_server_fileid took 0.0081s to import
+[I 2023-06-29 23:01:07.460 ServerApp] Package jupyter_server_mathjax took 0.0041s to import
+[I 2023-06-29 23:01:07.461 ServerApp] Package jupyter_server_proxy took 0.0000s to import
+[I 2023-06-29 23:01:07.480 ServerApp] Package jupyter_server_terminals took 0.0190s to import
+[I 2023-06-29 23:01:07.565 ServerApp] Package jupyter_server_ydoc took 0.0850s to import
+[I 2023-06-29 23:01:07.618 ServerApp] Package jupyterlab_git took 0.0524s to import
+[I 2023-06-29 23:01:07.619 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-06-29 23:01:07.628 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-29 23:01:07.628 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-06-29 23:01:07.628 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-06-29 23:01:07.628 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-06-29 23:01:07.630 ServerApp] dask_labextension | extension was successfully linked.
+[I 2023-06-29 23:01:07.631 ServerApp] ipyparallel | extension was successfully linked.
+[I 2023-06-29 23:01:07.639 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-06-29 23:01:07.648 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-06-29 23:01:07.648 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-06-29 23:01:07.655 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-06-29 23:01:07.664 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-06-29 23:01:07.723 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-06-29 23:01:07.723 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-06-29 23:01:07.733 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-06-29 23:01:07.733 ServerApp] nbdime | extension was successfully linked.
+[I 2023-06-29 23:01:07.753 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-06-29 23:01:07.974 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-06-29 23:01:07.975 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2023-06-29 23:01:07.981 ServerApp] Loading IPython parallel extension
+[I 2023-06-29 23:01:07.981 ServerApp] ipyparallel | extension was successfully loaded.
+[I 2023-06-29 23:01:07.981 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-06-29 23:01:07.982 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /gpfs/work1/0/einf2480
+[I 2023-06-29 23:01:07.984 FileIdExtension] ArbitraryFileIdManager : Configured database path: /gpfs/home2/qiahan/.local/share/jupyter/file_id_manager.db
+[I 2023-06-29 23:01:07.986 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-06-29 23:01:07.986 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-06-29 23:01:07.987 FileIdExtension] Attached event listeners.
+[I 2023-06-29 23:01:07.987 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-06-29 23:01:07.988 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-06-29 23:01:08.004 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-06-29 23:01:08.005 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-06-29 23:01:08.006 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-06-29 23:01:08.022 LabApp] JupyterLab extension loaded from /home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/site-packages/jupyterlab
+[I 2023-06-29 23:01:08.022 LabApp] JupyterLab application directory is /gpfs/home2/qiahan/.conda/envs/mamba/envs/emulator/share/jupyter/lab
+[I 2023-06-29 23:01:08.025 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-06-29 23:01:08.031 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-06-29 23:01:08.048 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-06-29 23:01:08.226 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-06-29 23:01:08.227 ServerApp] Serving notebooks from local directory: /gpfs/work1/0/einf2480
+[I 2023-06-29 23:01:08.227 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-06-29 23:01:08.227 ServerApp] http://localhost:5271/lab?token=fb052e8dbc3736e32d6e8ab11072203ba5b969ba47ad999f
+[I 2023-06-29 23:01:08.227 ServerApp]     http://127.0.0.1:5271/lab?token=fb052e8dbc3736e32d6e8ab11072203ba5b969ba47ad999f
+[I 2023-06-29 23:01:08.227 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-06-29 23:01:08.236 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/home2/qiahan/.local/share/jupyter/runtime/jpserver-2510540-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5271/lab?token=fb052e8dbc3736e32d6e8ab11072203ba5b969ba47ad999f
+        http://127.0.0.1:5271/lab?token=fb052e8dbc3736e32d6e8ab11072203ba5b969ba47ad999f
+/home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/contextlib.py:126: UserWarning: Creating scratch directories is taking a surprisingly long time. (4.68s) This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+[I 2023-06-29 23:05:35.749 LabApp] Generating new user for token-authenticated request: d0db317719ed483c8a3c119a74d398be
+[W 2023-06-29 23:05:41.856 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-06-29 23:06:47.685 ServerApp] Notebook global_data_Qianqian/Emulator/1computationBlockTest/2read10kminput-halfhourly-0626.ipynb is not trusted
+[W 2023-06-29 23:06:47.718 ServerApp] Notebook global_data_Qianqian/Emulator/1computationBlockTest/2read10kminput-halfhourly-0628.ipynb is not trusted
+[I 2023-06-29 23:06:49.719 ServerApp] Kernel started: 5666e0ce-1e78-4dff-b16f-27b401c84da0
+[I 2023-06-29 23:06:49.727 ServerApp] Kernel started: 47ba3313-91b8-4f2e-a4da-238fbccd198a
+[I 2023-06-29 23:06:50.369 ServerApp] Connecting to kernel 47ba3313-91b8-4f2e-a4da-238fbccd198a.
+[I 2023-06-29 23:06:50.438 ServerApp] Connecting to kernel 5666e0ce-1e78-4dff-b16f-27b401c84da0.
+[I 2023-06-29 23:06:50.454 ServerApp] Starting buffering for 47ba3313-91b8-4f2e-a4da-238fbccd198a:de4b7447-b195-47c8-b375-8530a54275c2
+[I 2023-06-29 23:06:50.514 ServerApp] Connecting to kernel 47ba3313-91b8-4f2e-a4da-238fbccd198a.
+[I 2023-06-29 23:06:50.592 ServerApp] Connecting to kernel 47ba3313-91b8-4f2e-a4da-238fbccd198a.
