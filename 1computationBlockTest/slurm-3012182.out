@@ -1,0 +1,66 @@
+To connect to the notebook type the following command from your local terminal:
+ssh -J qiahan@int4-pub.snellius.surf.nl qiahan@fcn4.local.snellius.surf.nl -L 5421:localhost:5421
+
+After connection is established in your local browser go to the address:
+http://localhost:5421
+[I 2023-07-04 09:45:04.493 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-07-04 09:45:05.784 ServerApp] Package dask_labextension took 1.2903s to import
+[W 2023-07-04 09:45:05.784 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-04 09:45:07.073 ServerApp] Package ipyparallel took 1.2888s to import
+[W 2023-07-04 09:45:07.074 ServerApp] A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-04 09:45:07.084 ServerApp] Package jupyter_server_fileid took 0.0105s to import
+[I 2023-07-04 09:45:07.089 ServerApp] Package jupyter_server_mathjax took 0.0039s to import
+[I 2023-07-04 09:45:07.089 ServerApp] Package jupyter_server_proxy took 0.0000s to import
+[I 2023-07-04 09:45:07.110 ServerApp] Package jupyter_server_terminals took 0.0205s to import
+[I 2023-07-04 09:45:07.190 ServerApp] Package jupyter_server_ydoc took 0.0802s to import
+[I 2023-07-04 09:45:07.244 ServerApp] Package jupyterlab_git took 0.0536s to import
+[I 2023-07-04 09:45:07.245 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-07-04 09:45:07.251 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-04 09:45:07.251 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-07-04 09:45:07.251 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-07-04 09:45:07.252 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-04 09:45:07.253 ServerApp] dask_labextension | extension was successfully linked.
+[I 2023-07-04 09:45:07.254 ServerApp] ipyparallel | extension was successfully linked.
+[I 2023-07-04 09:45:07.262 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-07-04 09:45:07.270 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-07-04 09:45:07.270 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-07-04 09:45:07.277 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-07-04 09:45:07.284 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-07-04 09:45:07.334 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-07-04 09:45:07.334 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-07-04 09:45:07.343 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-07-04 09:45:07.343 ServerApp] nbdime | extension was successfully linked.
+[I 2023-07-04 09:45:07.368 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-07-04 09:45:07.672 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-04 09:45:07.673 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2023-07-04 09:45:07.679 ServerApp] Loading IPython parallel extension
+[I 2023-07-04 09:45:07.679 ServerApp] ipyparallel | extension was successfully loaded.
+[I 2023-07-04 09:45:07.680 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-07-04 09:45:07.680 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /gpfs/work1/0/einf2480
+[I 2023-07-04 09:45:07.682 FileIdExtension] ArbitraryFileIdManager : Configured database path: /gpfs/home2/qiahan/.local/share/jupyter/file_id_manager.db
+[I 2023-07-04 09:45:07.684 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-07-04 09:45:07.684 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-07-04 09:45:07.686 FileIdExtension] Attached event listeners.
+[I 2023-07-04 09:45:07.686 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-07-04 09:45:07.687 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-07-04 09:45:07.703 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-07-04 09:45:07.704 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-07-04 09:45:07.705 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-07-04 09:45:08.089 LabApp] JupyterLab extension loaded from /home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-04 09:45:08.089 LabApp] JupyterLab application directory is /gpfs/home2/qiahan/.conda/envs/mamba/envs/emulator/share/jupyter/lab
+[I 2023-07-04 09:45:08.093 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-07-04 09:45:08.099 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-07-04 09:45:08.112 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-07-04 09:45:08.294 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-07-04 09:45:08.295 ServerApp] Serving notebooks from local directory: /gpfs/work1/0/einf2480
+[I 2023-07-04 09:45:08.295 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-07-04 09:45:08.295 ServerApp] http://localhost:5421/lab?token=b5f40b2b04c9676b52e8598987286bbafff6eeeba1db5aae
+[I 2023-07-04 09:45:08.295 ServerApp]     http://127.0.0.1:5421/lab?token=b5f40b2b04c9676b52e8598987286bbafff6eeeba1db5aae
+[I 2023-07-04 09:45:08.295 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-07-04 09:45:08.303 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/home2/qiahan/.local/share/jupyter/runtime/jpserver-543392-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5421/lab?token=b5f40b2b04c9676b52e8598987286bbafff6eeeba1db5aae
+        http://127.0.0.1:5421/lab?token=b5f40b2b04c9676b52e8598987286bbafff6eeeba1db5aae
