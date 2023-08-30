@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH --time 12:00:00
+#SBATCH --time 3:00:00
 #SBATCH --nodes=1
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=128
-#SBATCH --mem=960GB
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=240GB
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
 module load 2021
@@ -26,6 +26,6 @@ echo "http://localhost:${PORT}"
 source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
 
 #conda activate gdal 
-cd /projects/0/einf2480/
+cd /projects/0/ttse0619/qianqian
 jupyter lab --no-browser --port $PORT
 
