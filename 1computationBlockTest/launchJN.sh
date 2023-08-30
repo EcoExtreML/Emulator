@@ -3,8 +3,8 @@
 #SBATCH --nodes=1
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
-#SBATCH --mem=240GB
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=960GB
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
 module load 2021
@@ -13,7 +13,7 @@ module load Miniconda3/4.9.2
 
 # Choose random port and print instructions to connect
 PORT=`shuf -i 5000-5999 -n 1`
-LOGIN_HOST=int4-pub.snellius.surf.nl
+LOGIN_HOST=int5-pub.snellius.surf.nl
 BATCH_HOST=$(hostname)
  
 echo "To connect to the notebook type the following command from your local terminal:"
