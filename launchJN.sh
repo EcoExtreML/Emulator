@@ -4,7 +4,7 @@
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --mem=256GB
+#SBATCH --mem=240GB
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
 module load 2021
