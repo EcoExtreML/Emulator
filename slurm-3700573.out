@@ -32101,3 +32101,21 @@ http://localhost:5934
 [I 2023-09-04 14:24:23.510 ServerApp] Connecting to kernel 856ecdd9-8c9e-44e8-88bb-1849bfbf955b.
 [I 2023-09-04 14:25:42.667 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/2read10kminput-halfhourly-0904_1year.ipynb
 [I 2023-09-04 14:25:43.917 ServerApp] Starting buffering for 856ecdd9-8c9e-44e8-88bb-1849bfbf955b:f3602d51-8ec8-402a-992d-f5ff3509c657
+[I 2023-09-04 14:28:09.167 ServerApp] Starting buffering for fd120fc6-12bf-48f4-9204-379230121f83:6782843b-f8f9-470d-989d-7e6bb8d032b1
+slurmstepd: error: *** JOB 3700573 ON fcn39 CANCELLED AT 2023-09-04T15:08:16 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/3700573/.ns: Invalid argument
+slurmstepd: error: container_g_join(3700573): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 3700573
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:04
+CPU Efficiency: 0.00% of 1-08:13:20 core-walltime
+Job Wall-clock time: 01:00:25
+Memory Utilized: 11.62 GB
+Memory Efficiency: 4.84% of 240.00 GB

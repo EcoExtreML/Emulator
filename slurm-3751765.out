@@ -1,0 +1,1300 @@
+***************************************************************************************************** 
+* WARNING: The 2021 software stack is not available on the 'genoa' partition.
+Please use the 2022 * 
+* software stack. * 
+* * 
+* If you have any question, please contact us via
+http://servicedesk.surfsara.nl. * 
+***************************************************************************************************** 
+To connect to the notebook type the following command from your local terminal:
+ssh -J qiahan@int5-pub.snellius.surf.nl qiahan@fcn39.local.snellius.surf.nl -L 5311:localhost:5311
+
+After connection is established in your local browser go to the address:
+http://localhost:5311
+[I 2023-09-05 23:30:03.105 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-05 23:30:03.611 ServerApp] Package dask_labextension took 0.5059s to import
+[W 2023-09-05 23:30:03.612 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-05 23:30:04.062 ServerApp] Package ipyparallel took 0.4491s to import
+[W 2023-09-05 23:30:04.062 ServerApp] A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-05 23:30:04.065 ServerApp] Package jupyter_server_fileid took 0.0031s to import
+[I 2023-09-05 23:30:04.069 ServerApp] Package jupyter_server_mathjax took 0.0033s to import
+[I 2023-09-05 23:30:04.070 ServerApp] Package jupyter_server_proxy took 0.0000s to import
+[I 2023-09-05 23:30:04.080 ServerApp] Package jupyter_server_terminals took 0.0104s to import
+[I 2023-09-05 23:30:04.126 ServerApp] Package jupyter_server_ydoc took 0.0449s to import
+[I 2023-09-05 23:30:04.157 ServerApp] Package jupyterlab_git took 0.0309s to import
+[I 2023-09-05 23:30:04.157 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-09-05 23:30:04.159 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-05 23:30:04.160 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-09-05 23:30:04.160 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-05 23:30:04.160 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-05 23:30:04.161 ServerApp] dask_labextension | extension was successfully linked.
+[I 2023-09-05 23:30:04.161 ServerApp] ipyparallel | extension was successfully linked.
+[I 2023-09-05 23:30:04.168 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-09-05 23:30:04.176 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-09-05 23:30:04.176 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-09-05 23:30:04.183 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-05 23:30:04.189 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-09-05 23:30:04.242 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-05 23:30:04.242 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-09-05 23:30:04.250 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-09-05 23:30:04.250 ServerApp] nbdime | extension was successfully linked.
+[I 2023-09-05 23:30:04.259 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-05 23:30:04.364 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-05 23:30:04.367 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2023-09-05 23:30:04.370 ServerApp] Loading IPython parallel extension
+[I 2023-09-05 23:30:04.370 ServerApp] ipyparallel | extension was successfully loaded.
+[I 2023-09-05 23:30:04.370 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-09-05 23:30:04.371 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /gpfs/work2/0/ttse0619/qianqian
+[I 2023-09-05 23:30:04.371 FileIdExtension] ArbitraryFileIdManager : Configured database path: /gpfs/home2/qiahan/.local/share/jupyter/file_id_manager.db
+[I 2023-09-05 23:30:04.371 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-09-05 23:30:04.371 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-09-05 23:30:04.372 FileIdExtension] Attached event listeners.
+[I 2023-09-05 23:30:04.372 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-09-05 23:30:04.373 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-09-05 23:30:04.391 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-09-05 23:30:04.392 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-05 23:30:04.393 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-09-05 23:30:04.401 LabApp] JupyterLab extension loaded from /home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/site-packages/jupyterlab
+[I 2023-09-05 23:30:04.401 LabApp] JupyterLab application directory is /gpfs/home2/qiahan/.conda/envs/mamba/envs/emulator/share/jupyter/lab
+[I 2023-09-05 23:30:04.404 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-05 23:30:04.410 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-09-05 23:30:04.416 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-09-05 23:30:04.687 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-09-05 23:30:04.687 ServerApp] Serving notebooks from local directory: /gpfs/work2/0/ttse0619/qianqian
+[I 2023-09-05 23:30:04.688 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-09-05 23:30:04.688 ServerApp] http://localhost:5311/lab?token=2b0e72939710756db1c5b47fd90bcacbc9e7e4afddcddb33
+[I 2023-09-05 23:30:04.688 ServerApp]     http://127.0.0.1:5311/lab?token=2b0e72939710756db1c5b47fd90bcacbc9e7e4afddcddb33
+[I 2023-09-05 23:30:04.688 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-09-05 23:30:04.692 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/home2/qiahan/.local/share/jupyter/runtime/jpserver-389200-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5311/lab?token=2b0e72939710756db1c5b47fd90bcacbc9e7e4afddcddb33
+        http://127.0.0.1:5311/lab?token=2b0e72939710756db1c5b47fd90bcacbc9e7e4afddcddb33
+[I 2023-09-05 23:30:49.102 LabApp] Generating new user for token-authenticated request: 3723ee782df345698031a208b5bb203d
+[I 2023-09-05 23:30:56.225 LabApp] Build is up to date
+[W 2023-09-05 23:30:57.206 ServerApp] 404 GET /individual-plots.json?1693949457142 (3723ee782df345698031a208b5bb203d@::1) 23.97ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:30:59.389 ServerApp] Kernel started: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[I 2023-09-05 23:31:00.073 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[I 2023-09-05 23:31:00.164 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[I 2023-09-05 23:31:00.254 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[W 2023-09-05 23:31:01.334 ServerApp] 404 GET /individual-plots.json?1693949461286 (3723ee782df345698031a208b5bb203d@::1) 1.48ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:31:07.476 ServerApp] 404 GET /individual-plots.json?1693949467434 (3723ee782df345698031a208b5bb203d@::1) 1.62ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:31:22.876 ServerApp] 404 GET /individual-plots.json?1693949482830 (3723ee782df345698031a208b5bb203d@::1) 1.55ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:31:49.165 ServerApp] 404 GET /individual-plots.json?1693949509124 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:32:38.325 ServerApp] 404 GET /individual-plots.json?1693949558284 (3723ee782df345698031a208b5bb203d@::1) 1.24ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:32:58.983 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:34:27.505 ServerApp] 404 GET /individual-plots.json?1693949667464 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:35:00.205 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:35:58.930 ServerApp] 404 GET /individual-plots.json?1693949758875 (3723ee782df345698031a208b5bb203d@::1) 1.76ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:36:08.858 ServerApp] 404 GET /individual-plots.json?1693949768815 (3723ee782df345698031a208b5bb203d@::1) 1.36ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:36:32.527 ServerApp] 404 GET /individual-plots.json?1693949792485 (3723ee782df345698031a208b5bb203d@::1) 1.42ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:37:01.214 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:37:42.938 ServerApp] 404 GET /individual-plots.json?1693949862892 (3723ee782df345698031a208b5bb203d@::1) 1.62ms referer=http://127.0.0.1:5311/lab
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+2023-09-05 23:37:54,159 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 0, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x153deb305040>, <function predictFlux at 0x153deb305280>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         ...,
+         [-6.94444461e-05, -6.94444461e-05, -6.94444461e-05, ...,
+          -6.94444461e-05, -6.94444461e-05, -6.94444461e-05],
+         [-6.94444461e-05, -6.94444461e-05, -6.94444461e-05, ...,
+          -6.94444461e-05, -6.94444461e-05, -6.94444461e-05],
+         [-6.94444461e-05, -6.94444461e-05, -6.94444461e-05, ...,
+          -6.94444461e-05
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+2023-09-05 23:37:54,191 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 5, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x149191da3040>, <function predictFlux at 0x149193241af0>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         ...,
+         [2.80551392e+02, 2.85162506e+02, 2.89045563e+02, ...,
+          4.08207214e+02, 4.08935272e+02, 4.09784729e+02],
+         [2.88803070e+02, 2.94385010e+02, 2.99360291e+02, ...,
+          4.20948608e+02, 4.22526123e+02, 4.23982208e+02],
+         [2.86376099e+02, 2.93293060e+02, 3.00088348e+02, ...,
+          4.39514435e+02, 4.42669708e+02, 4.46309998e+02]]
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+2023-09-05 23:37:54,309 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 4, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x1468387c6dc0>, <function predictFlux at 0x146838f0ae50>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         ...,
+         [3.66786652e+02, 3.63299438e+02, 3.58317230e+02, ...,
+          1.64524719e+02, 1.65645554e+02, 1.67264725e+02],
+         [3.82977783e+02, 3.79739441e+02, 3.74632782e+02, ...,
+          1.74114716e+02, 1.76107498e+02, 1.77851105e+02],
+         [3.96054443e+02, 3.93065552e+02, 3.88333344e+02, ...,
+          1.88561951e+02, 1.91052780e+02, 1.93792770e+02]]
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+2023-09-05 23:37:54,340 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 3, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x146837701820>, <function predictFlux at 0x146837701a60>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         ...,
+         [-2.77777785e-04, -2.77777785e-04, -2.77777785e-04, ...,
+          -2.77777785e-04, -2.77777785e-04, -2.77777785e-04],
+         [-2.77777785e-04, -2.77777785e-04, -2.77777785e-04, ...,
+          -2.77777785e-04, -2.77777785e-04, -2.77777785e-04],
+         [-2.77777785e-04, -2.77777785e-04, -2.77777785e-04, ...,
+          -2.77777785e-04
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+2023-09-05 23:37:54,345 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 2, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x146df1038ee0>, <function predictFlux at 0x146df01c5040>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         [            nan,             nan,             nan, ...,
+                      nan,             nan,             nan],
+         ...,
+         [ 4.00766937e+02,  4.01652374e+02,  4.02215820e+02, ...,
+           4.34975830e+02,  4.35458893e+02,  4.35941803e+02],
+         [ 4.01893890e+02,  4.02698761e+02,  4.03342773e+02, ...,
+           4.37309998e+02,  4.37712646e+02,  4.38275970e+02],
+         [ 4.02940277e+02,  4.03745148e+02,  4.04469574e+02, ...,
+           4.39805420e+02
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+2023-09-05 23:37:54,378 - distributed.worker - WARNING - Compute Failed
+Key:       ('predictFlux-<this-array>-predictFlux-65564ed433e1806a644d62e97c942ea2', 6, 0, 0, 0)
+Function:  execute_task
+args:      ((<built-in function getitem>, (<function map_blocks.<locals>._wrapper at 0x146deb27e5e0>, <function predictFlux at 0x146deb27e700>, [(<class 'xarray.core.dataset.Dataset'>, (<class 'dict'>, [[<this-array>, (('variable', 'time', 'latitude', 'longitude'), array([[[[           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         [           nan,            nan,            nan, ...,
+                     nan,            nan,            nan],
+         ...,
+         [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, ...,
+          0.00000000e+00, 0.00000000e+00, 0.00000000e+00],
+         [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, ...,
+          0.00000000e+00, 0.00000000e+00, 0.00000000e+00],
+         [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, ...,
+          0.00000000e+00, 0.00000000e+00, 0.00000000e+00]]
+kwargs:    {}
+Exception: "ValueError('all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 5202000 and the array at index 8 has size 2601')"
+
+[I 2023-09-05 23:39:01.776 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:39:42.979 ServerApp] 404 GET /individual-plots.json?1693949982937 (3723ee782df345698031a208b5bb203d@::1) 3.43ms referer=http://127.0.0.1:5311/lab
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+[W 2023-09-05 23:40:42.178 ServerApp] 404 GET /individual-plots.json?1693950042134 (3723ee782df345698031a208b5bb203d@::1) 1.42ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:40:54.200 ServerApp] 404 GET /individual-plots.json?1693950054162 (3723ee782df345698031a208b5bb203d@::1) 1.32ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:41:02.284 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-05 23:41:06.548 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:41:16.763 ServerApp] 404 GET /individual-plots.json?1693950076711 (3723ee782df345698031a208b5bb203d@::1) 1.68ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:42:16.182 ServerApp] Kernel interrupted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[W 2023-09-05 23:42:19.135 ServerApp] 404 GET /individual-plots.json?1693950139065 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Process Dask Worker process (from Nanny):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2023-09-05 23:42:18,193 - distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+2023-09-05 23:42:18,193 - distributed.nanny - ERROR - Worker process died unexpectedly
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1905, in _run_once
+    handle._run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/qiahan/.local/lib/python3.9/site-packages/tornado/ioloop.py", line 740, in _run_callback
+    from tornado import gen
+  File "<frozen importlib._bootstrap>", line 1051, in _handle_fromlist
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+sys:1: RuntimeWarning: coroutine 'PeriodicCallback._run' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+[W 2023-09-05 23:42:23.933 ServerApp] 404 GET /individual-plots.json?1693950143863 (3723ee782df345698031a208b5bb203d@::1) 1.56ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:42:29.289 ServerApp] 404 GET /individual-plots.json?1693950149207 (3723ee782df345698031a208b5bb203d@::1) 1.21ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:42:38.478 ServerApp] 404 GET /individual-plots.json?1693950158427 (3723ee782df345698031a208b5bb203d@::1) 1.31ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:42:42.591 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:43:05.922 ServerApp] 404 GET /individual-plots.json?1693950185873 (3723ee782df345698031a208b5bb203d@::1) 1.45ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:43:18.933 ServerApp] 404 GET /individual-plots.json?1693950198888 (3723ee782df345698031a208b5bb203d@::1) 1.53ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:43:39.918 ServerApp] 404 GET /individual-plots.json?1693950219873 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:43:45.160 ServerApp] 404 GET /individual-plots.json?1693950225116 (3723ee782df345698031a208b5bb203d@::1) 1.22ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:43:55.250 ServerApp] 404 GET /individual-plots.json?1693950235210 (3723ee782df345698031a208b5bb203d@::1) 1.17ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:44:18.114 ServerApp] 404 GET /individual-plots.json?1693950258050 (3723ee782df345698031a208b5bb203d@::1) 1.46ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:44:43.013 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-05 23:44:49.963 ServerApp] Kernel restarted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[I 2023-09-05 23:44:50.094 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[W 2023-09-05 23:45:02.875 ServerApp] 404 GET /individual-plots.json?1693950302828 (3723ee782df345698031a208b5bb203d@::1) 1.68ms referer=http://127.0.0.1:5311/lab
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+[I 2023-09-05 23:46:43.498 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:46:50.033 ServerApp] 404 GET /individual-plots.json?1693950409982 (3723ee782df345698031a208b5bb203d@::1) 1.58ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:47:21.866 ServerApp] 404 GET /individual-plots.json?1693950441820 (3723ee782df345698031a208b5bb203d@::1) 1.36ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:47:49.451 ServerApp] 404 GET /individual-plots.json?1693950469403 (3723ee782df345698031a208b5bb203d@::1) 1.60ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-05 23:48:09.304 ServerApp] 404 GET /individual-plots.json?1693950489260 (3723ee782df345698031a208b5bb203d@::1) 1.39ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:48:44.007 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:48:48.473 ServerApp] 404 GET /individual-plots.json?1693950528402 (3723ee782df345698031a208b5bb203d@::1) 1.48ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:49:13.860 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:49:14.996 ServerApp] 404 GET /individual-plots.json?1693950554953 (3723ee782df345698031a208b5bb203d@::1) 1.51ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:49:43.345 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:50:26.683 ServerApp] 404 GET /individual-plots.json?1693950626646 (3723ee782df345698031a208b5bb203d@::1) 1.54ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:50:30.734 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+[I 2023-09-05 23:52:04.190 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:52:21.315 ServerApp] 404 GET /individual-plots.json?1693950741277 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+[I 2023-09-05 23:53:50.854 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+[W 2023-09-05 23:54:21.402 ServerApp] 404 GET /individual-plots.json?1693950861370 (3723ee782df345698031a208b5bb203d@::1) 3.81ms referer=http://127.0.0.1:5311/lab
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+[I 2023-09-05 23:55:51.324 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:56:21.448 ServerApp] 404 GET /individual-plots.json?1693950981415 (3723ee782df345698031a208b5bb203d@::1) 1.69ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:57:22.952 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-09-05 23:57:22.952 ServerApp] kernel e80cc693-62e2-4ff4-83f0-6421fb793afa restarted
+[W 2023-09-05 23:57:22.953 ServerApp] kernel e80cc693-62e2-4ff4-83f0-6421fb793afa restarted
+[I 2023-09-05 23:57:23.010 ServerApp] Starting buffering for e80cc693-62e2-4ff4-83f0-6421fb793afa:7b85d7a7-bc80-4dbc-9f33-495f6e84b27b
+[I 2023-09-05 23:57:23.034 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[I 2023-09-05 23:57:23.193 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[I 2023-09-05 23:57:51.781 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-05 23:58:21.513 ServerApp] 404 GET /individual-plots.json?1693951101472 (3723ee782df345698031a208b5bb203d@::1) 4.81ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:58:32.881 ServerApp] Kernel interrupted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+Process Dask Worker process (from Nanny):
+2023-09-05 23:58:35,077 - distributed.nanny - ERROR - Worker process died unexpectedly
+2023-09-05 23:58:35,077 - distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+[W 2023-09-05 23:59:37.343 ServerApp] 404 GET /individual-plots.json?1693951177311 (3723ee782df345698031a208b5bb203d@::1) 1.35ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-05 23:59:52.215 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-06 00:00:12.957 ServerApp] Kernel interrupted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[W 2023-09-06 00:01:12.332 ServerApp] 404 GET /individual-plots.json?1693951272301 (3723ee782df345698031a208b5bb203d@::1) 1.42ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:01:52.757 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:03:12.374 ServerApp] 404 GET /individual-plots.json?1693951392347 (3723ee782df345698031a208b5bb203d@::1) 1.64ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:03:56.572 ServerApp] Kernel restarted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[I 2023-09-06 00:03:56.660 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[W 2023-09-06 00:05:12.449 ServerApp] 404 GET /individual-plots.json?1693951512396 (3723ee782df345698031a208b5bb203d@::1) 2.78ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:05:53.273 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:06:00.912 ServerApp] 404 GET /individual-plots.json?1693951560881 (3723ee782df345698031a208b5bb203d@::1) 1.55ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:06:46.891 ServerApp] 404 GET /individual-plots.json?1693951606865 (3723ee782df345698031a208b5bb203d@::1) 1.38ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:07:53.782 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:08:28.066 ServerApp] 404 GET /individual-plots.json?1693951708034 (3723ee782df345698031a208b5bb203d@::1) 1.50ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:09:37.525 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:10:28.145 ServerApp] 404 GET /individual-plots.json?1693951828121 (3723ee782df345698031a208b5bb203d@::1) 1.67ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:10:58.014 ServerApp] Kernel interrupted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+2023-09-06 00:11:01,303 - distributed.nanny - ERROR - Worker process died unexpectedly
+Process Dask Worker process (from Nanny):
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+2023-09-06 00:11:01,305 - distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+[W 2023-09-06 00:11:01.692 ServerApp] 404 GET /individual-plots.json?1693951861663 (3723ee782df345698031a208b5bb203d@::1) 1.67ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:11:24.465 ServerApp] 404 GET /individual-plots.json?1693951884440 (3723ee782df345698031a208b5bb203d@::1) 1.44ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:11:37.944 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:12:14.726 ServerApp] 404 GET /individual-plots.json?1693951934671 (3723ee782df345698031a208b5bb203d@::1) 1.46ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:12:34.678 ServerApp] Kernel restarted: e80cc693-62e2-4ff4-83f0-6421fb793afa
+[I 2023-09-06 00:12:34.817 ServerApp] Connecting to kernel e80cc693-62e2-4ff4-83f0-6421fb793afa.
+[W 2023-09-06 00:12:36.024 ServerApp] 404 GET /individual-plots.json?1693951955981 (3723ee782df345698031a208b5bb203d@::1) 1.39ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:13:11.799 ServerApp] 404 GET /individual-plots.json?1693951991771 (3723ee782df345698031a208b5bb203d@::1) 1.35ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:13:38.371 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:13:51.212 ServerApp] 404 GET /individual-plots.json?1693952031180 (3723ee782df345698031a208b5bb203d@::1) 3.15ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:15:02.184 ServerApp] 404 GET /individual-plots.json?1693952102156 (3723ee782df345698031a208b5bb203d@::1) 1.49ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:15:38.827 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-06 00:15:52.202 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:15:58.068 ServerApp] 404 GET /individual-plots.json?1693952158032 (3723ee782df345698031a208b5bb203d@::1) 1.73ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:17:06.471 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:17:32.598 ServerApp] 404 GET /individual-plots.json?1693952252564 (3723ee782df345698031a208b5bb203d@::1) 2.92ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:19:07.046 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:19:30.198 ServerApp] 404 GET /individual-plots.json?1693952370160 (3723ee782df345698031a208b5bb203d@::1) 1.54ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:21:07.528 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:21:30.290 ServerApp] 404 GET /individual-plots.json?1693952490256 (3723ee782df345698031a208b5bb203d@::1) 1.57ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:23:08.238 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:23:34.936 ServerApp] 404 GET /individual-plots.json?1693952614906 (3723ee782df345698031a208b5bb203d@::1) 1.48ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:23:45.675 ServerApp] 404 GET /individual-plots.json?1693952625646 (3723ee782df345698031a208b5bb203d@::1) 1.46ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:24:12.591 ServerApp] 404 GET /individual-plots.json?1693952652509 (3723ee782df345698031a208b5bb203d@::1) 1.39ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:25:08.692 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:25:22.156 ServerApp] 404 GET /individual-plots.json?1693952722130 (3723ee782df345698031a208b5bb203d@::1) 1.97ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:26:56.857 ServerApp] 404 GET /individual-plots.json?1693952816827 (3723ee782df345698031a208b5bb203d@::1) 1.47ms referer=http://127.0.0.1:5311/lab
+[I 2023-09-06 00:27:09.108 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-06 00:28:00.213 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[I 2023-09-06 00:29:05.877 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0905_1year-np_repeat.ipynb
+[W 2023-09-06 00:29:06.934 ServerApp] 404 GET /individual-plots.json?1693952946909 (3723ee782df345698031a208b5bb203d@::1) 1.54ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:29:12.111 ServerApp] 404 GET /individual-plots.json?1693952952081 (3723ee782df345698031a208b5bb203d@::1) 1.44ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:29:24.175 ServerApp] 404 GET /individual-plots.json?1693952964144 (3723ee782df345698031a208b5bb203d@::1) 1.54ms referer=http://127.0.0.1:5311/lab
+[W 2023-09-06 00:29:53.630 ServerApp] 404 GET /individual-plots.json?1693952993596 (3723ee782df345698031a208b5bb203d@::1) 1.49ms referer=http://127.0.0.1:5311/lab
+slurmstepd: error: *** JOB 3751765 ON fcn39 CANCELLED AT 2023-09-06T00:29:59 DUE TO TIME LIMIT ***
+[I 2023-09-06 00:29:59.840 ServerApp] Starting buffering for e80cc693-62e2-4ff4-83f0-6421fb793afa:7b85d7a7-bc80-4dbc-9f33-495f6e84b27b
+slurmstepd: error: Detected 1 oom_kill event in StepId=3751765.batch. Some of the step tasks have been OOM Killed.
+
+JOB STATISTICS
+==============
+Job ID: 3751765
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 16:02:08 core-walltime
+Job Wall-clock time: 01:00:08
+Memory Utilized: 63.54 GB
+Memory Efficiency: 52.95% of 120.00 GB
