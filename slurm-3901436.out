@@ -1,0 +1,14 @@
+
+JOB STATISTICS
+==============
+Job ID: 3901436
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 48
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 2-00:16:48 core-walltime
+Job Wall-clock time: 01:00:21
+Memory Utilized: 4.91 GB
+Memory Efficiency: 2.04% of 240.00 GB

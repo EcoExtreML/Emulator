@@ -1,0 +1,343 @@
+***************************************************************************************************** 
+* WARNING: The 2021 software stack is not available on the 'genoa' partition.
+Please use the 2022 * 
+* software stack. * 
+* * 
+* If you have any question, please contact us via
+http://servicedesk.surfsara.nl. * 
+***************************************************************************************************** 
+To connect to the notebook type the following command from your local terminal:
+ssh -J qiahan@int5-pub.snellius.surf.nl qiahan@fcn39.local.snellius.surf.nl -L 5894:localhost:5894
+
+After connection is established in your local browser go to the address:
+http://localhost:5894
+[I 2023-09-21 06:04:16.287 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-21 06:04:17.308 ServerApp] Package dask_labextension took 1.0213s to import
+[W 2023-09-21 06:04:17.310 ServerApp] A `_jupyter_server_extension_points` function was not found in dask_labextension. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-21 06:04:18.227 ServerApp] Package ipyparallel took 0.9174s to import
+[W 2023-09-21 06:04:18.227 ServerApp] A `_jupyter_server_extension_points` function was not found in ipyparallel. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-21 06:04:18.234 ServerApp] Package jupyter_server_fileid took 0.0065s to import
+[I 2023-09-21 06:04:18.238 ServerApp] Package jupyter_server_mathjax took 0.0037s to import
+[I 2023-09-21 06:04:18.239 ServerApp] Package jupyter_server_proxy took 0.0000s to import
+[I 2023-09-21 06:04:18.254 ServerApp] Package jupyter_server_terminals took 0.0155s to import
+[I 2023-09-21 06:04:18.324 ServerApp] Package jupyter_server_ydoc took 0.0693s to import
+[I 2023-09-21 06:04:18.370 ServerApp] Package jupyterlab_git took 0.0456s to import
+[I 2023-09-21 06:04:18.370 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-09-21 06:04:18.375 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-21 06:04:18.376 ServerApp] Package nbdime took 0.0000s to import
+[I 2023-09-21 06:04:18.376 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-21 06:04:18.376 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-21 06:04:18.378 ServerApp] dask_labextension | extension was successfully linked.
+[I 2023-09-21 06:04:18.378 ServerApp] ipyparallel | extension was successfully linked.
+[I 2023-09-21 06:04:18.385 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-09-21 06:04:18.392 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2023-09-21 06:04:18.392 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2023-09-21 06:04:18.398 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-21 06:04:18.404 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2023-09-21 06:04:18.463 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-21 06:04:18.463 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2023-09-21 06:04:18.471 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-09-21 06:04:18.471 ServerApp] nbdime | extension was successfully linked.
+[I 2023-09-21 06:04:18.486 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-21 06:04:18.699 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-21 06:04:18.742 ServerApp] dask_labextension | extension was successfully loaded.
+[I 2023-09-21 06:04:18.747 ServerApp] Loading IPython parallel extension
+[I 2023-09-21 06:04:18.748 ServerApp] ipyparallel | extension was successfully loaded.
+[I 2023-09-21 06:04:18.748 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-09-21 06:04:18.748 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /gpfs/work2/0/ttse0619/qianqian
+[I 2023-09-21 06:04:18.748 FileIdExtension] ArbitraryFileIdManager : Configured database path: /gpfs/home2/qiahan/.local/share/jupyter/file_id_manager.db
+[I 2023-09-21 06:04:18.750 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-09-21 06:04:18.750 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-09-21 06:04:18.751 FileIdExtension] Attached event listeners.
+[I 2023-09-21 06:04:18.751 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-09-21 06:04:18.752 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2023-09-21 06:04:18.768 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2023-09-21 06:04:18.769 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-21 06:04:18.770 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-09-21 06:04:18.791 LabApp] JupyterLab extension loaded from /home/qiahan/.conda/envs/mamba/envs/emulator/lib/python3.9/site-packages/jupyterlab
+[I 2023-09-21 06:04:18.791 LabApp] JupyterLab application directory is /gpfs/home2/qiahan/.conda/envs/mamba/envs/emulator/share/jupyter/lab
+[I 2023-09-21 06:04:18.795 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-21 06:04:18.800 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2023-09-21 06:04:18.812 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-09-21 06:04:18.961 ServerApp] nbdime | extension was successfully loaded.
+[I 2023-09-21 06:04:18.962 ServerApp] Serving notebooks from local directory: /gpfs/work2/0/ttse0619/qianqian
+[I 2023-09-21 06:04:18.962 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-09-21 06:04:18.962 ServerApp] http://localhost:5894/lab?token=319e5b90626b43c7c6e0da6b41052f3e6841f92f1efc05cc
+[I 2023-09-21 06:04:18.962 ServerApp]     http://127.0.0.1:5894/lab?token=319e5b90626b43c7c6e0da6b41052f3e6841f92f1efc05cc
+[I 2023-09-21 06:04:18.962 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-09-21 06:04:18.969 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///gpfs/home2/qiahan/.local/share/jupyter/runtime/jpserver-108721-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5894/lab?token=319e5b90626b43c7c6e0da6b41052f3e6841f92f1efc05cc
+        http://127.0.0.1:5894/lab?token=319e5b90626b43c7c6e0da6b41052f3e6841f92f1efc05cc
+[I 2023-09-21 06:05:28.623 LabApp] Generating new user for token-authenticated request: 9d095d33c2f9446f9130646f85596025
+[I 2023-09-21 06:06:27.571 LabApp] Build is up to date
+[I 2023-09-21 06:06:52.675 ServerApp] Kernel started: f6e2b8db-3404-4ce3-a70a-983c5d3c1999
+[I 2023-09-21 06:06:56.469 ServerApp] Connecting to kernel f6e2b8db-3404-4ce3-a70a-983c5d3c1999.
+[I 2023-09-21 06:06:57.770 ServerApp] Connecting to kernel f6e2b8db-3404-4ce3-a70a-983c5d3c1999.
+[I 2023-09-21 06:07:16.784 ServerApp] Kernel started: f9cac37d-ab0a-45ff-b98c-c63af1e3136c
+[I 2023-09-21 06:07:22.098 ServerApp] Connecting to kernel f9cac37d-ab0a-45ff-b98c-c63af1e3136c.
+[I 2023-09-21 06:09:22.529 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:10:48.221 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:11:24.440 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:11:32.361 ServerApp] Kernel started: b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb
+[I 2023-09-21 06:11:33.465 ServerApp] Connecting to kernel b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb.
+[I 2023-09-21 06:12:49.809 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0919_1year_10degree.ipynb
+[I 2023-09-21 06:12:57.986 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0919_1year_10degree.ipynb
+[I 2023-09-21 06:13:00.651 ServerApp] Starting buffering for b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb:a0590ae0-02ed-4328-b34b-6dba45580262
+[I 2023-09-21 06:13:25.347 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:13:28.411 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:14:38.163 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:15:08.901 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.dbf
+[I 2023-09-21 06:15:08.906 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.fix
+[I 2023-09-21 06:15:08.913 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.prj
+[I 2023-09-21 06:15:09.299 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.shx
+[I 2023-09-21 06:15:10.333 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.shp
+[I 2023-09-21 06:15:10.449 ServerApp] Uploading file to /global_data_Qianqian/Emulator/EuropeBoundary.cpg
+[I 2023-09-21 06:15:47.419 ServerApp] Kernel interrupted: f9cac37d-ab0a-45ff-b98c-c63af1e3136c
+[I 2023-09-21 06:16:40.045 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:17:04.072 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:17:37.618 ServerApp] Connecting to kernel b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb.
+[I 2023-09-21 06:17:48.763 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0919_1year_10degree.ipynb
+[I 2023-09-21 06:17:50.626 ServerApp] Starting buffering for b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb:8d2d1e32-7561-490f-af31-387050708d67
+[I 2023-09-21 06:18:01.516 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:18:36.081 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:20:16.722 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:20:23.803 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/1-2resample_LAI.ipynb
+[I 2023-09-21 06:20:30.745 ServerApp] Starting buffering for f9cac37d-ab0a-45ff-b98c-c63af1e3136c:cbbfc4f0-a575-44ed-986e-176ce65d8d2c
+[W 2023-09-21 06:26:33.578 ServerApp] delete /global_data_Qianqian/1input_data/2015global/vcmax/TROPOMI_Vmax_Tg_mean10km_global.nc
+[W 2023-09-21 06:26:33.579 ServerApp] Skipping trash for /gpfs/work2/0/ttse0619/qianqian/global_data_Qianqian/1input_data/2015global/vcmax/TROPOMI_Vmax_Tg_mean10km_global.nc, on different device to home directory
+[I 2023-09-21 06:26:47.477 ServerApp] Uploading file to /global_data_Qianqian/1input_data/2015global/vcmax/TROPOMI_Vmax_Tg_mean10km_global.nc
+[I 2023-09-21 06:27:51.627 ServerApp] Saving file at /global_data_Qianqian/1input_data/2015global/vcmax/TROPOMI_Vmax_Tg_mean10km_global.nc
+[I 2023-09-21 06:27:51.634 ServerApp] Connecting to kernel f9cac37d-ab0a-45ff-b98c-c63af1e3136c.
+[W 2023-09-21 06:30:12.806 ServerApp] delete /global_data_Qianqian/1input_data/2015global/igbp/landcover10km_global.nc
+[W 2023-09-21 06:30:12.808 ServerApp] Skipping trash for /gpfs/work2/0/ttse0619/qianqian/global_data_Qianqian/1input_data/2015global/igbp/landcover10km_global.nc, on different device to home directory
+[I 2023-09-21 06:30:15.887 ServerApp] Uploading file to /global_data_Qianqian/1input_data/2015global/igbp/landcover10km_global.nc
+[I 2023-09-21 06:31:21.360 ServerApp] Starting buffering for f9cac37d-ab0a-45ff-b98c-c63af1e3136c:19488fc2-381c-446b-944f-0ba106240df3
+[I 2023-09-21 06:31:55.431 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:32:12.133 ServerApp] Connecting to kernel f9cac37d-ab0a-45ff-b98c-c63af1e3136c.
+[I 2023-09-21 06:33:57.457 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:34:59.743 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:35:58.092 ServerApp] Starting buffering for f9cac37d-ab0a-45ff-b98c-c63af1e3136c:43f80b36-9411-48e8-94fb-1df232691402
+[I 2023-09-21 06:36:07.020 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:37:10.261 ServerApp] Uploading file to /global_data_Qianqian/1input_data/2015global/canopy_height/canopy_height_11kmEurope20230921_10km.nc
+[I 2023-09-21 06:37:14.352 ServerApp] Saving file at /global_data_Qianqian/1input_data/2015global/canopy_height/canopy_height_11kmEurope20230921_10km.nc
+[I 2023-09-21 06:37:27.223 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:38:07.741 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:39:47.413 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:40:59.085 ServerApp] Kernel interrupted: f6e2b8db-3404-4ce3-a70a-983c5d3c1999
+Process Dask Worker process (from Nanny):
+2023-09-21 06:41:01,108 - distributed.nanny - ERROR - Worker process died unexpectedly
+Process Dask Worker process (from Nanny):
+Process Dask Worker process (from Nanny):
+2023-09-21 06:41:01,108 - distributed.nanny - ERROR - Worker process died unexpectedly
+2023-09-21 06:41:01,108 - distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+KeyboardInterrupt
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+Traceback (most recent call last):
+KeyboardInterrupt
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Process Dask Worker process (from Nanny):
+Process Dask Worker process (from Nanny):
+2023-09-21 06:41:01,124 - distributed.nanny - ERROR - Worker process died unexpectedly
+Process Dask Worker process (from Nanny):
+Process Dask Worker process (from Nanny):
+2023-09-21 06:41:01,124 - distributed.nanny - ERROR - Worker process died unexpectedly
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+KeyboardInterrupt
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+KeyboardInterrupt
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/process.py", line 202, in _run
+    target(*args, **kwargs)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/site-packages/distributed/nanny.py", line 999, in _run
+    asyncio.run(run())
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/qiahan/.conda/envs/firstEnv/lib/python3.9/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+[I 2023-09-21 06:41:02.351 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:41:20.464 ServerApp] Kernel interrupted: f6e2b8db-3404-4ce3-a70a-983c5d3c1999
+[I 2023-09-21 06:41:55.472 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:42:18.692 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:42:34.171 ServerApp] Connecting to kernel f9cac37d-ab0a-45ff-b98c-c63af1e3136c.
+[I 2023-09-21 06:45:13.249 ServerApp] Connecting to kernel b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb.
+[I 2023-09-21 06:45:43.331 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0919_1year_10degree.ipynb
+[I 2023-09-21 06:45:44.768 ServerApp] Starting buffering for b7f9bb40-3d5b-498e-b3f6-4dcbc3cc54fb:ac941956-8584-4bd6-9a2a-6f0d8c40838c
+[I 2023-09-21 06:45:48.032 ServerApp] Starting buffering for f9cac37d-ab0a-45ff-b98c-c63af1e3136c:2a25ede6-7f5b-4c18-b238-f0d49ef554cf
+[I 2023-09-21 06:55:10.358 ServerApp] Kernel started: 0571ee3e-e829-4a71-a856-d1d615b7d876
+[I 2023-09-21 06:55:11.208 ServerApp] Connecting to kernel 0571ee3e-e829-4a71-a856-d1d615b7d876.
+[I 2023-09-21 06:56:22.865 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:57:10.439 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/3-2resample_CO2_data.ipynb
+[I 2023-09-21 06:58:06.670 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:58:14.173 ServerApp] Kernel interrupted: f6e2b8db-3404-4ce3-a70a-983c5d3c1999
+[I 2023-09-21 06:58:22.238 ServerApp] Kernel interrupted: 0571ee3e-e829-4a71-a856-d1d615b7d876
+[I 2023-09-21 06:58:25.758 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/3-2resample_CO2_data.ipynb
+[I 2023-09-21 06:58:34.058 ServerApp] Saving file at /global_data_Qianqian/2preprocessing/3-2resample_CO2_data.ipynb
+[I 2023-09-21 06:58:40.775 ServerApp] Saving file at /global_data_Qianqian/Emulator/2daskParallel/0920_1year_Europe.ipynb
+[I 2023-09-21 06:58:43.090 ServerApp] Starting buffering for 0571ee3e-e829-4a71-a856-d1d615b7d876:f385d46c-1a74-4472-8c44-53355c203c63
+[I 2023-09-21 06:58:43.091 ServerApp] Starting buffering for f6e2b8db-3404-4ce3-a70a-983c5d3c1999:4b95cbe4-2643-4ecd-9248-bb6906104517
+[I 2023-09-21 07:01:31.346 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+slurmstepd: error: *** JOB 3908335 ON fcn39 CANCELLED AT 2023-09-21T07:04:16 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/3908335/.ns: Invalid argument
+slurmstepd: error: container_g_join(3908335): Invalid argument
+slurmstepd: error: Detected 1 oom_kill event in StepId=3908335.batch. Some of the step tasks have been OOM Killed.
+
+JOB STATISTICS
+==============
+Job ID: 3908335
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 1-08:08:00 core-walltime
+Job Wall-clock time: 01:00:15
+Memory Utilized: 227.72 GB
+Memory Efficiency: 94.88% of 240.00 GB
