@@ -18,7 +18,7 @@ dependencies:
   - joblib
   - rasterio
   - xarray==2022.9.0
-  - scikit-learn
+  - scikit-learn==1.2.2
   - rioxarray
   - pip
   - pip:
