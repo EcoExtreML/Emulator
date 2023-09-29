@@ -98,3 +98,20 @@ http://localhost:5017
 [W 2023-09-21 10:50:47.170 ServerApp] 404 GET /individual-plots.json?1695286233612 (ea14a39b1cda472c894024f5f0b69965@::1) 1.45ms referer=http://localhost:5017/lab/tree/global_data_Qianqian/Emulator/2daskParallel/0921_1year_10degree.ipynb
 [I 2023-09-21 10:51:21.650 ServerApp] Starting buffering for 09fc5bfb-9ba4-4cb8-af6f-1c704f3cfc76:3857d41c-2646-4a08-a989-9c519651e530
 [I 2023-09-21 10:51:21.651 ServerApp] Starting buffering for 759e74f9-45b3-438d-b1da-ac27b670d825:880bbf8c-e53d-44dd-b79f-8c975386d092
+slurmstepd: error: *** JOB 3909303 ON fcn1 CANCELLED AT 2023-09-21T11:42:27 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/3909303/.ns: Invalid argument
+slurmstepd: error: container_g_join(3909303): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 3909303
+Cluster: snellius
+User/Group: qiahan/qiahan
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 16:06:08 core-walltime
+Job Wall-clock time: 01:00:23
+Memory Utilized: 315.71 MB
+Memory Efficiency: 0.26% of 120.00 GB
