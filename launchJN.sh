@@ -26,6 +26,6 @@ echo "http://localhost:${PORT}"
 source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
 
 #conda activate gdal 
-cd /projects/0/ttse0619/qianqian
+cd /projects/0/ttse0619
 jupyter lab --no-browser --port $PORT
 
