@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH --time 3:00:00
+#SBATCH --time 1:00:00
 #SBATCH --nodes=1
-#SBATCH --partition=rome
+#SBATCH --partition=fat
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=28GB
+#SBATCH --mem=120GB
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
 module load 2021
