@@ -2,7 +2,7 @@
 #SBATCH --job-name=parallel_job
 #SBATCH --nodes=1
 #SBATCH --partition=thin
-#SBATCH --time=1:00:00
+#SBATCH --time=6:00:00
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=28GB
 # Load any necessary modules or activate conda environments
@@ -14,16 +14,12 @@ source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activat
 # Define the number of processes or threads to use
 
 # 循环遍历每个月份（1到12月）
-for month in {3..12}
+for year in {2016..2019}
 do
-  # 格式化月份，确保月份是两位数（例如01, 02, ..., 12）
-  formatted_month=$(printf "%02d" $month)
-
   # 运行Python脚本，传递年份和月份作为参数
-  python 20241203_1year_RFOI_Global.py --year 2014 --month $formatted_month &
+  python preprocessing2024-12-03ERA5Land.py --year $year &
 
   # 可以选择添加适当的延迟，避免资源过度使用
   # sleep 1
 done
-
 wait
