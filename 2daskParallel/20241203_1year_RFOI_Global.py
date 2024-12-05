@@ -46,7 +46,8 @@ cluster.scale(jobs=NWORKERS)
 
 client = Client(cluster)
 client.wait_for_workers(NWORKERS)
-
+print(client,flush=True)
+print(client.dashboard_link,flush=True)
 
 # ## 2)define working path, load trained model, define functions
 
@@ -66,7 +67,7 @@ year = args.year
 month = args.month
 
 # 使用 year 和 month 执行你的逻辑
-print(f"Processing data for {year}-{month:02d}")
+print(f"Processing data for {year}-{month:02d}",flush=True)
 
 
 # In[244]:
