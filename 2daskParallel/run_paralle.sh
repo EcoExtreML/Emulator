@@ -20,7 +20,7 @@ do
   formatted_month=$(printf "%02d" $month)
 
   # 运行Python脚本，传递年份和月份作为参数
-  python 20241203_1year_RFOI_Global.py --year 2019 --month $formatted_month &
+  python 20241206_1year_RFOI_Global.py --year 2014 --month $formatted_month &
 
   # 可以选择添加适当的延迟，避免资源过度使用
   # sleep 1
