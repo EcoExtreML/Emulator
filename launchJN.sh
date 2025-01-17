@@ -1,12 +1,13 @@
 #!/bin/bash
-#SBATCH --time 5:00:00
+#SBATCH --time 10:00:00
 #SBATCH --nodes=1
 #SBATCH --partition=fat
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
-#SBATCH --mem=240GB
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=120GB
   
 # Make sure the jupyter command is available, either by loading the appropriate modules, sourcing your own virtual environment, etc.
+
 module load 2021
 #module load IPython/7.25.0-GCCcore-10.3.0
 module load Miniconda3/4.9.2
@@ -21,9 +22,14 @@ echo "ssh -J ${USER}@${LOGIN_HOST} ${USER}@${BATCH_HOST} -L ${PORT}:localhost:${
 echo
 echo "After connection is established in your local browser go to the address:"
 echo "http://localhost:${PORT}"
-#source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate emulator
 
-source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
+#source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
+
+mamba init
+source ~/.bashrc
+mamba activate /home/qiahan/.conda/envs/mamba/envs/emulator
+module list
+mamba info
 
 #conda activate gdal 
 cd /projects/0/ttse0619

@@ -7,9 +7,15 @@
 #SBATCH --mem=28GB
 # Load any necessary modules or activate conda environments
 # (if required for your specific job)
-module load 2021
-module load Miniconda3/4.9.2
-source /sw/arch/Centos8/EB_production/2021/software/Miniconda3/4.9.2/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
+#module load 2023
+#module load Miniconda3/23.5.2-0
+#source /sw/arch/Centos8/EB_production/2023/software/Miniconda3/23.5.2-0/bin/activate /home/qiahan/.conda/envs/mamba/envs/emulator
+
+mamba init
+source ~/.bashrc
+mamba activate /home/qiahan/.conda/envs/mamba/envs/emulator
+module list
+mamba info
 
 # Define the number of processes or threads to use
 
@@ -20,7 +26,7 @@ do
   formatted_month=$(printf "%02d" $month)
 
   # 运行Python脚本，传递年份和月份作为参数
-  python 20241206_1year_RFOI_Global.py --year 2014 --month $formatted_month &
+  python 20241206_1year_RFOI_Global.py --year 2019 --month $formatted_month &
 
   # 可以选择添加适当的延迟，避免资源过度使用
   # sleep 1
