@@ -113,7 +113,7 @@ hc_PATH = f'{DATA_DIR}/canopy_height/hc_global.zarr'
 VCMAX_PATH = f'{DATA_DIR}/Vcmax/vcmax_fillnan.zarr'
 MODEL_PATH = f'{ROOT_DIR}/qianqian/global_data_Qianqian/3RF_train/hourlyFluxes_OI2024-11-05.pkl'
 
-LEH_PATH = f'{ROOT_DIR}/qianqian/global_data_Qianqian/5output_data/global_fluxes_RFOI_{year}-{month:02d}_v1.3correct.zarr'
+LEH_PATH = f'{ROOT_DIR}/qianqian/global_data_Qianqian/5output_data/global_fluxes_RFOI_{year}-{month:02d}_v1.3.zarr'
 
 
 # In[4]:
@@ -372,12 +372,6 @@ ds = ds.assign(
 ds = ds.to_array()
 
 ds = ds.chunk(time=125, variable=-1)
-
-
-# In[105]:
-
-
-xr.open_zarr("/projects/0/ttse0619/qianqian/global_data_Qianqian/5output_data/global_fluxes_RFOI_2016-10_v1.3.zarr")
 
 
 # ## 5) predict fluxes with map_blocks
